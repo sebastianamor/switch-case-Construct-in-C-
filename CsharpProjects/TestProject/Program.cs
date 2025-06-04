@@ -29,35 +29,37 @@ switch  (product[0])  {
 
  switch( product[1]) {
 
-       case 'BK':
+       case "BK":
        color = "black";
        break;
 
-       case 'MN':
+       case "MN":
        color = "marron";
        break;
 
        default:
        color = "white";
+       break;
 
  }
 
 switch( product[2]) {
 
-       case 'S':
+       case "S":
        size = "small";
        break;
 
-       case 'M':
+       case "M":
        size = "Medium";
        break;
 
-       case 'L':
+       case "L":
        size = "Large";
        break;
 
        default:
        size = " One Size Fits All  ";
+       break;
 
  }
  
